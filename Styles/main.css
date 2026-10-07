@@ -10,6 +10,8 @@ body {
     width: 940px;
     margin: 20px auto;
     border: 2px solid #8A9393;
+    background-color: white;
+    padding: 25px;
 }
 
 /* header */
@@ -17,15 +19,18 @@ nav {
     background-color: #CF473D;
     color: black;
     height: 30px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
 }
 
 nav ul {
+    text-align: center;
     margin: 0;
     padding: 5px 0 5px 30px;
 }
 
 nav li {
-    align-content: center;
+    text-align: center;
     display: inline;
     margin-right: 40px;
 }
@@ -44,5 +49,26 @@ h1 {
 }
 
 h2 {
-    color: #8A9393;
+    background-color: #CF473D;
+    color: white;
+    padding: 12px;
+    margin-top: 30px;
+    border-left: 6px solid black;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #CF473D;
+    background-color: #eeeeee;
+    padding: 10px;
+    margin-bottom: 0;
+    border-left: 4px solid black;
+}
+
+p {
+    color: #333333;
+    background-color: white;
+    padding: 10px;
+    margin-top: 0;
+    line-height: 1.5;
 }
