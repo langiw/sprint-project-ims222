@@ -39,10 +39,6 @@ h1 {
     margin-bottom: 30px;
 } 
 
-footer {
-    font-size:xx-small
-}
-
 .team-card h3 {
   font-size: 1.3rem;
   margin-bottom: 5px;
@@ -101,7 +97,6 @@ body {
 /* 2. Target Footer to extend completely */
 footer {
   font-size: small;
- /* Or your preferred dark background color */
   color: #ffffff;
   padding: 15px 0;
   width: 100%;
@@ -111,5 +106,9 @@ footer {
 footer p {
   margin: 0;
   text-align: center;
+}
+
+.team-card {
+    padding-bottom: 20px;
 }
 
