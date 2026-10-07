@@ -1,0 +1,55 @@
+body {
+    display: block;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0;
+    background: white;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto;
+    border: 2px solid #8A9393;
+}
+
+/* header */
+nav {
+    background-color: #CF473D;
+    color: black;
+    height: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px 0 5px 30px;
+}
+
+nav li {
+    align-content: center;
+    display: inline;
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.current {
+    color: white;
+}
+
+figure img {
+    align-content: center;
+    width: 80%;
+    border: 10px solid #8A9393;
+    padding: 1%;
+}
+
+h1 {
+    
+}
+
+h2 {
+    color: #8A9393;
+}
