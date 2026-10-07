@@ -39,15 +39,8 @@ a {
     color: white;
 }
 
-figure img {
-    align-content: center;
-    width: 80%;
-    border: 10px solid #8A9393;
-    padding: 1%;
-}
-
 h1 {
-    
+    text-align: center;
 }
 
 h2 {
