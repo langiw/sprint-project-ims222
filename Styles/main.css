@@ -79,3 +79,8 @@ p {
   margin-right: auto;
   width: 50%;
 }
+
+footer p{
+    padding: 0;
+    border-left: 0;
+}
