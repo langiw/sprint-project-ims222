@@ -96,3 +96,9 @@ footer p{
     border-left: 0;
     text-align: center;
 }
+
+figure img {
+    width: 80%;
+    border: 10px solid #8A9393;
+    padding: 1%;
+}

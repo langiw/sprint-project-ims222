@@ -57,12 +57,9 @@ h2 {
     border-radius: 5px;
 }
 
-h3 {
-    color: #CF473D;
-    background-color: #eeeeee;
-    padding: 10px;
-    margin-bottom: 0;
-    border-left: 4px solid black;
+.subhead {
+    border-left: 0;
+    text-align: center;
 }
 
 p {
