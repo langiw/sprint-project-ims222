@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Contact Page</title>
-        <link rel="stylesheet" href="Styles/main.css"> <link rel="Stylesheet" href="styles/contact.css">
-    </head>
-    <body>
-        <div class="wrapper">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="Stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <div class="wrapper">
         <!--header-->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="information.html">Oxford Hidden Gems</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="contact.html" class="current">Contact Us</a></li>
-                </ul>
-            </nav>
-            <section class="courses">
-        <article>
-            <h1>Contact Us</h1>
-            <form action="https://formspree.io/f/xzezrwnl" method="post" name="registration_form" id="registration_form">
-                <fieldset>
-                    <label for="name">Your Name:</label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="information.html">Oxford Hidden Gems</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html" class="current">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section class="contact">
+            <article>
+                <h1>Contact Us</h1>
+                <form action="https://formspree.io/f/xzezrwnl" method="post" name="registration_form" id="registration_form">
+                    <fieldset>
+                        <label for="name">Your Name:</label>
                         <input type="text" name="name" id="name" required><br>
-                    <label for="email">E-Mail:</label>
+                        <label for="email">E-Mail:</label>
                         <input type="email" name="email" id="email" required><br>
-                    <label for="phone">Phone Number:</label>
+                        <label for="phone">Phone Number:</label>
                         <input type="tel" name="phone" id="phone" placeholder="999-999-9999" required><br>
-                    <label for="hearaboutus">How did you hear about us?</label>
-                        <select name="hearaboutus" id="hearaboutus" required>
-                            <option value="magazine">Magazine Ad</option>
-                            <option value="radio">Radio Ad</option>
-                            <option value="tv">TV Ad</option>
-                            <option value="word">Social Media</option>
+                        <label for="tovisit">What place do you plan on visiting?</label>
+                        <select name="tovisit" id="tovisit" required>
+                            <option value="bar">Bar 1886</option>
+                            <option value="peffer">Peffer Park</option>
+                            <option value="course">Disc Golf Course</option>
+                            <option value="treats">Spring Street Treats</option>
+                            <option value="putt">Puzzle &amp; Putt</option>
                         </select>
-                    <label for="questions">Questions/Comments:</label>
+                        <label for="questions">Questions:</label>
                         <textarea name="questions" id="questions" rows="5"></textarea>
-                    <label>&nbsp;</label>
+                        <label>&nbsp;</label>
                         <input type="submit" id="submit" value="Submit">
-                </fieldset>
-            </form>
-        </article>
-    </section>
-        </div>
-    </body>
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </div>
+</body>
+
 </html>
