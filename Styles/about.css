@@ -7,6 +7,13 @@ body {
     background: white;
 }
 
+.myphoto {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
 nav {
     background-color: #CF473D;
     color: black;
