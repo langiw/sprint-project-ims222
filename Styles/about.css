@@ -7,11 +7,26 @@ body {
     background: white;
 }
 
-.myphoto {
-    width: 200px;
+.photos {
+    width: 190px;
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
+}
+
+.jaysonsphoto {
+    width: 195px;
+    height: 270px;
+        float: left;
+        margin-right: 20px;
+    margin-bottom: 10px
+}
+
+.team-card {
+    display: flow-root;
+     padding-bottom: 1px;
+    margin-bottom: 20px;
+    border-left: 4px solid #aaaaaa;
 }
 
 nav {
@@ -52,8 +67,7 @@ p {
     background-color: white;
     padding: 10px;
     margin-top: 0;
-    border-left: 4px solid #aaaaaa;
-    line-height: 1.5;
+    line-height: 1.9;
 }
 
 body {
@@ -110,7 +124,5 @@ footer p {
   text-align: center;
 }
 
-.team-card {
-    padding-bottom: 20px;
-}
+
 
