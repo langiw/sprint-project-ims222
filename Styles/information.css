@@ -35,7 +35,8 @@ nav li {
     margin-right: 40px;
 }
 
-nav li a:hover, nav li a.current {
+nav li a:hover,
+nav li a.current {
     color: white;
 }
 
@@ -71,24 +72,32 @@ p {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* footer */
 footer {
-  font-size: small;
-  color: #ffffff;
-  padding: 15px 0;
-  width: 100%;
-  margin: 0;
+    font-size: small;
+    color: #ffffff;
+    padding: 15px 0;
+    width: 100%;
+    margin: 0;
 }
 
-footer p{
+footer p {
     padding: 0;
     margin: 0;
     border-left: 0;
     text-align: center;
+}
+
+.badge {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
 }
