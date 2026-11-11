@@ -45,6 +45,15 @@ a {
     color: black;
 }
 
+h2 a {
+    text-decoration: underline;
+    color: white;
+}
+
+h2 a:hover {
+    color:black;
+}
+
 h1 {
     text-align: center;
 }

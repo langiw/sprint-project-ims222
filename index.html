@@ -4,8 +4,46 @@
 <head>
     <meta charset="UTF-8" />
     <title>Hidden Gems of Oxford - Home</title>
+    
     <link rel="stylesheet" href="Styles/main.css">
     <link rel="stylesheet" href="Styles/home.css">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.slider').slider({indicators: false, height: 500, interval:6000});
+        });
+    </script>
+
+
+    <!-- Materialize CDN - CSS & JAVASCRIPT here -->
+    <!-- Compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Add CSS code inside <style> </style> -->
+    <style>
+        .brand-logo {
+            margin-left: 10px;
+        }
+
+        img.activator {
+            height: 200px;
+            width: 250px;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,6 +58,7 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+        
         <section class="top">
             <figure>
                 <img src="images/oxford-view.png" alt="Overview of Oxford, Ohio" class="center">
@@ -35,12 +74,18 @@
         </section>
         
         <section class="videos">
+           <article>
+                <h3>A Sneak Peak</h3>
+                <p>Before you head over to page sharing all the information with you, here are a few videos showcasing some of our favorite spots: Peffer Park, Bar 1868, and Puzzle &amp; Putt Oxford.</p>
             <video src="Images/PefferPark_CoO-OA.mp4" 
             alt="Video of Peffer Park from the City of Oxford, Ohio Administration Facebook"
             class="left"></video>
+            <video src="Images/Bar1868_InstaVideo.mp4"
+            alt="Video of Bar 1868 from Instagram"></video>
             <video src="Images/PuzzlePutt_InstaVideo.mp4"
             alt="Video of Puzzle and Putt Oxford from Instagram"
             class="right"></video>
+            </article>
         </section>
         <!-- Footer -->
         <footer>

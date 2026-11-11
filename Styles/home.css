@@ -4,3 +4,7 @@ figure img {
     border: 10px solid #8A9393;
     padding: 1%;
 }
+
+video {
+    width: 33%;
+}
