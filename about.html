@@ -4,22 +4,73 @@
 <head>
     <meta charset="UTF-8" />
     <title>Hidden Gems of Oxford - About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="Styles/main.css">
     <link rel="stylesheet" href="Styles/about.css">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.slider').slider({
+                indicators: false,
+                height: 500,
+                interval: 6000
+            });
+        });
+    </script>
+
+
+    <!-- Materialize CDN - CSS & JAVASCRIPT here -->
+    <!-- Compiled and minified CSS -->
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Add CSS code inside <style> </style> -->
+    <style>
+        .brand-logo {
+            margin-left: 10px;
+        }
+
+        img.activator {
+            height: 200px;
+            width: 250px;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 
 <body>
-    f<div class="wrapper">
-        <!--header-->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
+    <nav id="home">
+        <div class="nav-wrapper CF473D">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="center hide-on-med-and-down">
+                <li><a href="index.html" class="current">Home</a></li>
                 <li><a href="information.html">Oxford Hidden Gems</a></li>
-                <li><a href="about.html" class="current">About Us</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
-        </nav>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="information.html">Oxford Hidden Gems</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    
+    <div class="wrapper">
         <!-- Team Section -->
 
         <div class="info">
