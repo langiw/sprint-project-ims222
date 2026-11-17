@@ -4,22 +4,74 @@
 <head>
     <meta charset="UTF-8" />
     <title>Hidden Gems of Oxford</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="Styles/main.css">
     <link rel="stylesheet" href="Styles/information.css">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.slider').slider({
+                indicators: false,
+                height: 500,
+                interval: 6000
+            });
+        });
+    </script>
+
+
+    <!-- Materialize CDN - CSS & JAVASCRIPT here -->
+    <!-- Compiled and minified CSS -->
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Add CSS code inside <style> </style> -->
+    <style>
+        .brand-logo {
+            margin-left: 10px;
+        }
+
+        img.activator {
+            height: 200px;
+            width: 250px;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="wrapper">
-        <!--header-->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="information.html" class="current">Oxford Hidden Gems</a></li>
+        <nav id="home">
+        <div class="nav-wrapper CF473D">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="center hide-on-med-and-down">
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="information.html">Oxford Hidden Gems</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
-        </nav>
+        </div>
+    </nav>
+    
+    <div class="wrapper">
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="information.html">Oxford Hidden Gems</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    
         <h1 id="top">Oxford Hidden Gems</h1>
         <h3 class="subhead"> Here's a list of the Top 5 Underrated Places to visit in Oxford, Ohio!</h3>
         <div class="item-list">
@@ -27,8 +79,9 @@
             <!-- Item 1 -->
             <div class="item">
                 <div class="item-description">
-                    <h2>Puzzle &amp; Putt</h2>
-
+                    <h2><a href="https://www.puzzleandputtoxford.com">Puzzle &amp; Putt</a></h2>
+                    <!-- Added Badge Component For Sprint#2-->
+                    <span class="badge">Open Year Round</span>
                     <h3 class="details">Mini Golf and Escape Rooms</h3>
                     <p class="summary">"The escape room was top notch. The props were great quality and the puzzles were unique. The putt-putt course is a little tight but the environment is cool! Worth a look!"</p>
                 </div>
@@ -36,14 +89,14 @@
                     <img src="Images/Puzzles&Putt2.jpg?raw=true" width=100% alt="Puzzle & Putt Grand Opening">
                     <img src="Images/Puzzles&Putt1.jpg?raw=true" width=100%>
                 </div>
-
             </div>
-
+            
             <!-- Item 2 -->
             <div class="item">
                 <div class="item-description">
-                    <h2>Spring Street Treats</h2>
-
+                    <h2><a href="https://www.springstreettreats.com">Spring Street Treats</a></h2>
+                    <!-- Added Badge Component For Sprint#2-->
+                    <span class="badge">Open From Feb 1st - October 31st Every Year</span>
                     <h3 class="details">Ice Cream, Dessert, Snacks</h3>
                     <p class="summary">"Love their ice cream!! It really is the best without the lactose!! They are so sweet there too. Will let you try their new flavors. They have games and activities for families to play too."</p>
                 </div>
@@ -57,8 +110,9 @@
             <div class="item">
                 <div class="item-image">
                     <div class="item-description">
-                        <h2>Peffer Park</h2>
-
+                        <h2><a href="https://miamioh.edu/finance-business/physical-facilities/event-spaces/peffer.html">Peffer Park</a></h2>
+                        <!-- Added Badge Component For Sprint#2-->
+                        <span class="badge">Open Sunrise-Sunset Year Round</span>
                         <h3 class="details">A Recreational Park On Campus with Trails and a Playground</h3>
                         <p class="summary">"A beautiful place with peaceful and quiet nature and places to have outdoor grills and fun."</p>
                     </div>
@@ -72,8 +126,9 @@
 
             <div>
                 <div class="item-description">
-                    <h2>Bar 1868</h2>
-
+                    <h2><a href="https://bar1868.com">Bar 1868</a></h2>
+                    <!-- Added Badge Component For Sprint#2-->
+                    <span class="badge">Open Year Round (Happy Hour 6pm-8pm On Friday/Saturday)</span>
                     <h3 class="details">A Bar In Uptown—Shows, Events, Food &amp; Drink, Cards, Pool</h3>
                     <p class="summary">"Consistently a fun atmosphere to be in. Unique events and a fun variety of drinks keep this underground bar a town gem."</p>
                 </div>
@@ -86,7 +141,9 @@
 
             <div>
                 <div class="item-description">
-                    <h2>Disc Golf Course</h2>
+                    <h2><a href="https://miamioh.edu/regionals/campuses-locations/outdoor-recreation/">Disc Golf Course</a></h2>
+                    <!-- Added Badge Component For Sprint#2-->
+                    <span class="badge">Open Dawn-Dusk Year Round</span>
                     <h3 class="details">The Miami University Disc Golf Course, Located Around Western Campus</h3>
                     <p class="summary">"A bit overgrown in certain areas, but it's a great way to get some movement in while having fun!"</p>
                 </div>
@@ -106,3 +163,4 @@
 </body>
 
 </html>
+

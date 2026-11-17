@@ -4,22 +4,74 @@
 <head>
     <meta charset="UTF-8" />
     <title>Hidden Gems of Oxford - Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="Styles/main.css">
     <link rel="Stylesheet" href="styles/contact.css">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.slider').slider({
+                indicators: false,
+                height: 500,
+                interval: 6000
+            });
+        });
+    </script>
+
+
+    <!-- Materialize CDN - CSS & JAVASCRIPT here -->
+    <!-- Compiled and minified CSS -->
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Add CSS code inside <style> </style> -->
+    <style>
+        .brand-logo {
+            margin-left: 10px;
+        }
+
+        img.activator {
+            height: 200px;
+            width: 250px;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="wrapper">
         <!--header-->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
+        <nav id="home">
+        <div class="nav-wrapper CF473D">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="center hide-on-med-and-down">
+                <li><a href="index.html" class="current">Home</a></li>
                 <li><a href="information.html">Oxford Hidden Gems</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html" class="current">Contact Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
-        </nav>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="information.html">Oxford Hidden Gems</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="wrapper">
+       
         <section class="contact">
             <article>
                 <h1>Contact Us</h1>
@@ -58,6 +110,10 @@
                     <button type="submit" class="btn">Send Message</button>
                 </form>
             </article>
+        </section>
+        <section class="maps">
+            <iframe class="center" title="Oxford Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24626.2789567791!2d-84.76412647434859!3d39.50805983580256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403d0e27bb9233%3A0x694f077b0f7aafcc!2sOxford%2C%20OH%2045056!5e0!3m2!1sen!2sus!4v1794348931737!5m2!1sen!2sus" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </section>
         <footer>
             <div class="footer">
