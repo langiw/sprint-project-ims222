@@ -43,6 +43,7 @@ h1 {
   font-size: 1.3rem;
   margin-bottom: 0;
   color: #CF473D; /* Change this to your desired color */
+    margin-top: 0;
 }
 
 p {
