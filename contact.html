@@ -4,10 +4,49 @@
 <head>
     <meta charset="UTF-8" />
     <title>Hidden Gems of Oxford - Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="Styles/main.css">
     <link rel="Stylesheet" href="styles/contact.css">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.slider').slider({
+                indicators: false,
+                height: 500,
+                interval: 6000
+            });
+        });
+    </script>
+
+
+    <!-- Materialize CDN - CSS & JAVASCRIPT here -->
+    <!-- Compiled and minified CSS -->
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Google Icon Font -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+    <!-- Add CSS code inside <style> </style> -->
+    <style>
+        .brand-logo {
+            margin-left: 10px;
+        }
+
+        img.activator {
+            height: 200px;
+            width: 250px;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,23 +66,22 @@
                 <h1>Contact Us</h1>
                 <form class="contact-form" action="https://formspree.io/f/xwlvoand" method="POST">
                     <div class="form-group">
-                         <label for="name"><i class="material-icons">person</i> Name</label>   
+                        <label for="name">Name</label>
                         <input type="text" id="name" name="name" placeholder="Your Full Name" required>
                     </div>
-                  
+
                     <div class="form-group">
-                        <label for="email"><i class="material-icons">email</i> Email</label>
+                        <label for="email">Email</label>
                         <input type="email" id="email" name="email" placeholder="Your Email Address" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="phone"><i class="material-icons">phone</i> Phone Number</label>
-                <!-- materaizedcss pulse-->
+                        <label for="phone">Phone Number</label>
                         <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="tovisit"><i class="material-icons">event</i>What place do you plan on visiting?</label>
+                        <label for="tovisit">What place do you plan on visiting?</label>
                         <select name="tovisit" id="tovisit" placeholder="Your Choice" required>
                             <option value="bar">Bar 1886</option>
                             <option value="peffer">Peffer Park</option>
@@ -54,15 +92,17 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="message"><i class="material-icons">comment</i> Question</label>
+                        <label for="message">Question</label>
                         <textarea id="message" name="message" rows="5" placeholder="Your Message..." required></textarea>
                     </div>
 
-                    <button type="submit" class="send-button">Send Message</button>
-                    
-
+                    <button type="submit" class="btn">Send Message</button>
                 </form>
             </article>
+        </section>
+        <section class="maps">
+            <iframe class="center" title="Oxford Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24626.2789567791!2d-84.76412647434859!3d39.50805983580256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403d0e27bb9233%3A0x694f077b0f7aafcc!2sOxford%2C%20OH%2045056!5e0!3m2!1sen!2sus!4v1794348931737!5m2!1sen!2sus" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </section>
         <footer>
             <div class="footer">
